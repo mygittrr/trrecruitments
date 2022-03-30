@@ -1,0 +1,77 @@
+.blinktext {
+	-webkit-animation: blink-text 800ms linear infinite;
+	-moz-animation: blink-text 800ms linear infinite;
+	-ms-animation: blink-text 800ms linear infinite;
+	-o-animation: blink-text 800ms linear infinite;
+	 animation: blink-text 1000ms linear infinite;
+}
+@-webkit-keyframes blink-text {
+	0% { color: #00FF00; opacity: 1; }
+	20% { color: #00FF00;opacity: .8; }
+	30% { color: #00FF00;opacity: .6; }
+	40% { color: #00FF00;opacity: .4; }
+	50% { color: #00FF00;opacity: .2; }
+	60% { color: #00FF00;opacity: 0; }
+	70% { color: #00FF00;opacity: .2; }
+	80% { color: #00FF00;opacity: .4; }
+	90% { color: #00FF00;opacity: .6; }
+	98% { color: #00FF00;opacity: .8; }
+	100% { color: #00FF00;opacity: 1; }
+
+}
+@-moz-keyframes blink-text {
+	0% { color: #00FF00; opacity: 1; }
+	20% { color: #00FF00;opacity: .8; }
+	30% { color: #00FF00;opacity: .6; }
+	40% { color: #00FF00;opacity: .4; }
+	50% { color: #00FF00;opacity: .2; }
+	60% { color: #00FF00;opacity: 0; }
+	70% { color: #00FF00;opacity: .2; }
+	80% { color: #00FF00;opacity: .4; }
+	90% { color: #00FF00;opacity: .6; }
+	98% { color: #00FF00;opacity: .8; }
+	100% { color: #00FF00;opacity: 1; }
+
+}
+@-ms-keyframes blink-text {
+	0% { color: #00FF00; opacity: 1; }
+	20% { color: #00FF00;opacity: .8; }
+	30% { color: #00FF00;opacity: .6; }
+	40% { color: #00FF00;opacity: .4; }
+	50% { color: #00FF00;opacity: .2; }
+	60% { color: #00FF00;opacity: 0; }
+	70% { color: #00FF00;opacity: .2; }
+	80% { color: #00FF00;opacity: .4; }
+	90% { color: #00FF00;opacity: .6; }
+	98% { color: #00FF00;opacity: .8; }
+	100% { color: #00FF00;opacity: 1; }
+
+}
+@-o-keyframes blink-text {
+	0% { color: #00FF00; opacity: 1; }
+	20% { color: #00FF00;opacity: .8; }
+	30% { color: #00FF00;opacity: .6; }
+	40% { color: #00FF00;opacity: .4; }
+	50% { color: #00FF00;opacity: .2; }
+	60% { color: #00FF00;opacity: 0; }
+	70% { color: #00FF00;opacity: .2; }
+	80% { color: #00FF00;opacity: .4; }
+	90% { color: #00FF00;opacity: .6; }
+	98% { color: #00FF00;opacity: .8; }
+	100% { color: #00FF00;opacity: 1; }
+
+}
+@keyframes blink-text {
+	0% { color: #00FF00; opacity: 1; }
+	20% { color: #00FF00;opacity: .8; }
+	30% { color: #00FF00;opacity: .6; }
+	40% { color: #00FF00;opacity: .4; }
+	50% { color: #00FF00;opacity: .2; }
+	60% { color: #00FF00;opacity: 0; }
+	70% { color: #00FF00;opacity: .2; }
+	80% { color: #00FF00;opacity: .4; }
+	90% { color: #00FF00;opacity: .6; }
+	98% { color: #00FF00;opacity: .8; }
+	100% { color: #00FF00;opacity: 1; }
+}blue;opacity: 1; }
+}
