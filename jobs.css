@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset 'UTF-8';
+/* Base Styles */
+#jobmenu,
+#jobmenu > ul,
+#jobmenu li,
+#jobmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#jobmenu a {
+  line-height: 1.3;
+}
+#jobmenu {
+  width: 100%;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+#jobmenu > ul > li {
+  margin: 0 0 2px 0;
+}
+#jobmenu > ul > li:last-child {
+  margin: 0;
+}
+#jobmenu > ul > li > a {
+  font-size: 15px;
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 1px 1px #000;
+  background: #565656;
+  background: -moz-linear-gradient(#565656 0%, #323232 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #323232));
+  background: -webkit-linear-gradient(#565656 0%, #323232 100%);
+  background: linear-gradient(#565656 0%, #323232 100%);
+  border: 1px solid #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#jobmenu > ul > li > a > span {
+  display: block;
+  border: 1px solid #666666;
+  padding: 6px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#jobmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#jobmenu > ul > li.active {
+  border-bottom: none;
+}
+#jobmenu > ul > li.active > a {
+  background: #97be10;
+  background: -moz-linear-gradient(#97be10 0%, #79980d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #97be10), color-stop(100%, #79980d));
+  background: -webkit-linear-gradient(#97be10 0%, #79980d 100%);
+  background: linear-gradient(#97be10 0%, #79980d 100%);
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  border: 1px solid #79980d;
+}
+#jobmenu > ul > li.active > a span {
+  border: 1px solid #97be10;
+}
+#jobmenu > ul > li.has-sub > a span {
+text-align:center;
+  background: url(images/icon_plus.png) 98% center no-repeat;
+}
+#jobmenu > ul > li.has-sub.active > a span {
+  background: url(images/icon_minus.png) 98% center no-repeat;
+}
+/* Sub menu */
+#jobmenu ul ul {
+  padding: 5px 12px;
+  display: none;
+}
+#jobmenu ul ul li {
+  padding: 3px 0;
+}
+#jobmenu ul ul a {
+  display: block;
+  color: #595959;
+  font-size: 13px;
+  font-weight: bold;
+}
+#jobmenu ul ul a:hover {
+ 
+}
+
+
+/*code for jobs 2 page*/
+.job2-job{
+*border:1px solid #505050;
+margin:auto;
+*padding:3px;}
+
+.job2-job table{
+
+margin:auto;}
+
+.job2-job table th{
+font-size:20px;
+padding:10px;
+border-bottom:1px solid #121212;}
+
+.job2-job table td{
+padding:10px;
+border-bottom:1px solid #121212;}
+
+.apply_now_job2{
+margin:auto;
+border:1px solid #505050;
+padding:10px;
+text-align:center;
+width:100px;
+background:#121212;
+}
+
+.job2-type-2{
+*border:1px solid #505050;
+padding:3px;}
+
+.job2-title{
+*border:1px solid #505050;
+padding:5px;
+width:40%;
+background:#121212;
+text-align:center;
+color:#ffffff;
+border-radius:5px;
+}
+.job-title-description{
+margin-top:10px;
+*border:1px solid #505050;
+background:#bebebe;
+color:#121212;
+padding:5px;
+}
+/*paGE NEXT PRE*/
+.next-pre-div{
+*border:1px solid #505050;
+padding:3px;}
+
+.next-pre-div ul{
+list-style:none;}
+
+.next-pre-div ul li{
+border:1px solid #505050;
+padding:5px;
+text-align:center;
+margin-left:5px;
+float:right;
+width:35px;
+background:#121212;
+color:#ffffff; }
